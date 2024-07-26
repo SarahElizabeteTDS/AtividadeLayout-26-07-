@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: rgb(68, 68, 138);
+}
+
 header {
     background-color: rgb(106, 106, 169);;
     color: aliceblue;
