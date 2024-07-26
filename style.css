@@ -1,0 +1,44 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(106, 106, 169);;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px 0;
+    height: 100px;
+}
+
+.sidebar {
+    background-color: rgb(68, 68, 138);
+    color: aliceblue;
+    padding: 15px;
+    box-sizing: border-box;
+    width: 25%;
+    float: left;
+    height: calc(100vh - 100px - 50px);
+}
+
+.main-content{
+    background-color:rgb(49, 49, 113);
+    color: aliceblue;
+    padding: 15px;
+    width: 75%;
+    float: left;
+    min-height: calc(100vh - 100px - 50px);
+}
+
+footer{
+    background-color: rgb(35, 35, 82);
+    color: aliceblue;
+    text-align: center;
+    padding: 15px 0px;
+    height: 50px;
+    float: left;
+    width: 100%;
+    min-height: 50px;
+}
